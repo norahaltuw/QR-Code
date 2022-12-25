@@ -2,6 +2,15 @@
 :root{
 background-color:hsl(212, 45%, 89%)
 }
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* # Card Qrcode*/
 .main{
 	background-color:white;
 	width:300px;
@@ -10,21 +19,15 @@ background-color:hsl(212, 45%, 89%)
 	display:flex;
 	flex-direction: column;
 	border-radius: 8px;
-	margin-left:530px;
-	margin-top:200px;
 }
 .image-div{
 	border-radius:8px;
-	--background-color:yellow;
 	width:280px;
-	
 }
 .QR{
-	margin-left:14px;
-	margin-right:5px;
-	margin-top:14px;
+	margin: 15px;
 	width:97%;
-	border-radius:9px;
+	border-radius:10px;
 }
 .first-h{
 font-family:outfit;
@@ -32,7 +35,7 @@ text-align:center;
 color:hsl(218, 44%, 22%);
 }
 .second-h{
-font-family:outfit;
+font-family:'Outfit', sans-serif;
 text-align:center;
 font-size:15px;
 color:hsl(220, 15%, 55%);
